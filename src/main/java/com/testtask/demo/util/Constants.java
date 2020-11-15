@@ -6,7 +6,6 @@ public interface Constants {
     String JSON = "application/json";
     String AUTHORIZATION = "Authorization";
     String CONTENT_TYPE = "Content-Type";
-    String ACCEPT_TYPE = "Accept";
 
     String PHOTOS_URL = "http://interview.agileengine.com/images?page=";
     String PHOTO_DETAILS_URL = "http://interview.agileengine.com/images/";

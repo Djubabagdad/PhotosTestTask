@@ -12,7 +12,7 @@ public class DataUpdater {
         this.fetcherFacade = fetcherFacade;
     }
 
-    @Scheduled(cron = "* */1 * * * *")
+    @Scheduled(cron = "* */10 * * * *")
     public void reload() {
         fetcherFacade.initData();
     }
